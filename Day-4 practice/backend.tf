@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "mybucket"
-    key    = "path/to/my/key"
+    key    = "Shanmukh/terraform.tfstate"
     region = "ap-south-1"
   }
 }
