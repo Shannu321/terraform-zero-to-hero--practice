@@ -7,6 +7,3 @@ resource "aws_instance" "shanmukh" {
   ami = "ami-04a37924ffe27da53" # change this
 }
 
-resource "aws_s3_bucket" "s3_bucket" {
-  bucket = "shanmukh-s3-demo-xyz"
-}
